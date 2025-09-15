@@ -3,7 +3,7 @@ pipeline {
     agent {label 'Node'}
     
     environment{
-        SONAR_HOME = tool "sonar"
+        SONAR_HOME = tool "Sonar"
     }
     
     parameters {
